@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#001A36</color>
+    <color name="background_card">#004A9A</color>
+    <color name="background_buttom">#B30000</color>
+
+    <color name="BMI_Brown">#FFD400</color>
+    <color name="BMI_Yellow">#FF4900</color>
+    <color name="BMI_Green">#30FF00</color>
+    <color name="BMI_Red">#FF0000</color>
+
 </resources>
