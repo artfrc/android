@@ -2,6 +2,7 @@ package com.androiddev.viewmodel
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.androiddev.viewmodel.databinding.ActivityMainBinding
 
@@ -27,12 +28,18 @@ class MainActivity : AppCompatActivity() {
         val btnCount = binding.btnCount
         val textView = binding.textView
 
-        textView.text = viewModel.count.toString()
+//        textView.text = viewModel.count.toString()
+//        Linha acima comentada por conta da inserção do LiveData
+
+        viewModel.count.observe(this, Observer {
+            textView.text = it.toString()
+        })
 
         btnCount.setOnClickListener{
 
             viewModel.updateCount()
-            textView.text = viewModel.count.toString()
+//            textView.text = viewModel.count.toString()
+//            Linha acima comentada por conta da inserção do LiveData
 
         }
 
