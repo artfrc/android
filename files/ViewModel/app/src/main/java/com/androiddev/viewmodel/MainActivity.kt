@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         val textView = binding.textView
 
 //        textView.text = viewModel.count.toString()
-//        Linha acima comentada por conta da inserção do LiveData
+//        Linha acima comentada por conta da inserção do LiveData   
 
         viewModel.count.observe(this, Observer {
             textView.text = it.toString()
