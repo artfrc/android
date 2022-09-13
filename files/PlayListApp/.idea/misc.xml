@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/repo/android/files/PlayListApp/app/src/main/res/drawable/search_view.xml" value="0.2005" />
         <entry key="..\:/repo/android/files/PlayListApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/repo/android/files/PlayListApp/app/src/main/res/layout/activity_second.xml" value="0.20833333333333334" />
         <entry key="..\:/repo/android/files/PlayListApp/app/src/main/res/layout/list_item.xml" value="0.20833333333333334" />
+        <entry key="..\:/repo/android/files/PlayListApp/app/src/main/res/layout/searchview.xml" value="0.20833333333333334" />
       </map>
     </option>
   </component>
